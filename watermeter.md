@@ -47,3 +47,5 @@ binary_sensor:
     name: "Pulse Counter"
 ```
 ![Image](https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true&s=100)
+
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true" width="50%" height="50%" alt="some_text">
