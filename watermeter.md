@@ -46,3 +46,4 @@ binary_sensor:
     device_class: opening
     name: "Pulse Counter"
 ```
+![Image](https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg)
