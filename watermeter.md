@@ -46,6 +46,6 @@ binary_sensor:
     device_class: opening
     name: "Pulse Counter"
 ```
-![Image](https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true&s=100)
 
-<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true" width="50%" height="50%" alt="some_text">
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true" width="50%" height="50%" alt="some_text"><img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204409.jpg?raw=true" width="50%" height="50%" alt="some_text">
+20200818_204409.jpg
