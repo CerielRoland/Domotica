@@ -1,3 +1,13 @@
+# Welcome
+A warm welcome on my new Domotica blog-ish site. My goal is to write small guides / showcase tutorials for the projects I did in my house.
+All of them are smart house related and of course all have passed the WAF (Wife Acceptance Factor).
+Special thanks to [Joep Verhaeg](https://www.linkedin.com/in/joepverhaeg/) for the last push in starting this site.
+
+# Projects
+- WML (Dutch water provider) smart meter
+- Smart Sprinklers
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/CerielRoland/Domotica/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
