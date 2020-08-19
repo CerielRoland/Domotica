@@ -2,4 +2,5 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 title: myCustomTitle
 description: myCustomAndDetailedDescription
-github_show_profile_link: false
+github:
+  is_project_page: false
