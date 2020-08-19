@@ -31,7 +31,7 @@ So in order:
 ## NodeRed
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/NodeRed_WML.png?raw=true">
 
-# Buidling instructions
+# Building instructions
 
 ## Wemos D1 mini
 First step is to solder the proximity sensor to the Wemos D1 mini.
