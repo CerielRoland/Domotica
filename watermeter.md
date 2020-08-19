@@ -1,11 +1,21 @@
 # WML Watermeter Introduction
 Each year my watermeter needs to be manually checked. The current reading needs to be reported to the provider in order to send me the yearly bill. This process is time consuming and exhausting to do. About time to fix this and make the dumb meter smart. Of course I could have installed a flow meter, but what's the fun of that..
 
+My watermeter is a dumb meter, but has a metal needle that spins if water is used. Every complete spin is exactly 0.001 m3 water and can be used as a reporting unit for my smart domotica system. Using a proximity sensor that gives a pulse everytime the metal passes I can report the usage to my dashboard. 
+So in order:
+- Sensor gives a pulse to a Wemos D1 mini with ESPHome.
+- ESPHome reports the pulse to Home Assistant.
+- NodeRed picks up the pulses and stores them in a counter variable.
+- NodeRed checks the current meter report, adds the counter variable and stores it again in:
+-- Home Assistant value
+-- InfluxDB measurement
+- NodeRed restart the loop.
+
 # Table of content 
 * auto-gen TOC:
 {:toc}
 
-## BOL
+# BOL
 - 3d printed water meter holder [Download](https://www.thingiverse.com/thing:4146391) (credits to [Jover68 on thingiverse](https://www.thingiverse.com/Jover68))
 - Wemos D1 mini with mini usb cable
 - Esphome (installed or docker)
@@ -13,7 +23,7 @@ Each year my watermeter needs to be manually checked. The current reading needs 
 
 # Showcase
 ## 3d model of holder
-<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/3d_WML.png?raw=true">
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/3d_WML.png?raw=true" width="50%" height="50%">
 ## Proximity meter
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true" width="50%" height="50%"><img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204409.jpg?raw=true" width="50%" height="50%">
 ## Wemos D1 mini
