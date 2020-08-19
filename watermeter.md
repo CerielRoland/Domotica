@@ -7,8 +7,8 @@ So in order:
 2. ESPHome reports the pulse to Home Assistant.
 3. NodeRed picks up the pulses and stores them in a counter variable.
 4. NodeRed checks the current meter report, adds the counter variable and stores it again in:
-4.1 Home Assistant value
-4.2 InfluxDB measurement
+4.1. Home Assistant value
+4.2. InfluxDB measurement
 5. NodeRed restart the loop.
 
 # Table of content 
