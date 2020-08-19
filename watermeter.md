@@ -3,13 +3,13 @@ Each year my watermeter needs to be manually checked. The current reading needs 
 
 My watermeter is a dumb meter, but has a metal needle that spins if water is used. Every complete spin is exactly 0.001 m3 water and can be used as a reporting unit for my smart domotica system. Using a proximity sensor that gives a pulse everytime the metal passes I can report the usage to my dashboard. 
 So in order:
-- Sensor gives a pulse to a Wemos D1 mini with ESPHome.
-- ESPHome reports the pulse to Home Assistant.
-- NodeRed picks up the pulses and stores them in a counter variable.
-- NodeRed checks the current meter report, adds the counter variable and stores it again in:
--- Home Assistant value
--- InfluxDB measurement
-- NodeRed restart the loop.
+1. Sensor gives a pulse to a Wemos D1 mini with ESPHome.
+2. ESPHome reports the pulse to Home Assistant.
+3. NodeRed picks up the pulses and stores them in a counter variable.
+4. NodeRed checks the current meter report, adds the counter variable and stores it again in:
+4.1 Home Assistant value
+4.2 InfluxDB measurement
+5. NodeRed restart the loop.
 
 # Table of content 
 * auto-gen TOC:
