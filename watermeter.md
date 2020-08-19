@@ -48,7 +48,10 @@ binary_sensor:
 ```
 
 # Showcase
+## Proximity meter
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204403.jpg?raw=true" width="50%" height="50%" alt="some_text"><img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204409.jpg?raw=true" width="50%" height="50%" alt="some_text">
+## Wemos D1 mini
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204450.jpg?raw=true" width="50%" height="50%" alt="some_text"><img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/20200818_204454.jpg?raw=true" width="50%" height="50%" alt="some_text">
-
+## NodeRed
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Watermeter/images/NodeRed_WML.png?raw=true">
 
