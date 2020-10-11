@@ -1,5 +1,7 @@
 # Teams Presence Introduction
-2020 is the year of... COVID19 and working from home (WFH). My company decided to send everyone home and keep a limited personel at the office. At first I thought it opened possibilities (to work on our IT backlog and do some research) but I quickly found out that working from home was really hard. Not because of the distance to my coworkers or customers, but due to a small wreckingball named Luuk (our 1.5 year old son) and my wife... (@Britta, sorry if you read this :)).
+2020 is the year of... COVID19 and working from home (WFH). My company decided to send everyone home and kept a limited personel at the office. At first I thought it opened possibilities (to work on our IT backlog and do some research) but I quickly found out that working from home was really hard. Not because of the distance to my coworkers or customers, but due to a small wreckingball named Luuk (our 1.5 year old son) and my wife... (@Britta, sorry if you read this :)). This had to stop...
+
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Teamspresence/images/meme_ideas.jpg?raw=true" width="50%" height="50%">
 
 My watermeter is a dumb meter, but has a metal needle that spins if water is used. Every complete spin is exactly 0.001 m3 water and can be used as a reporting unit for my smart domotica system. Using a proximity sensor that gives a pulse everytime the metal passes I can report the usage to my dashboard. 
 So in order:
