@@ -1,34 +1,37 @@
 # Teams Presence Introduction
-2020 is the year of... COVID19 and working from home (WFH). My company decided to send everyone home and kept a limited personel at the office. At first I thought it opened possibilities (to work on our IT backlog and do some research) but I quickly found out that working from home was really hard. Not because of the distance to my coworkers or customers, but due to a small wreckingball named Luuk (our 1.5 year old son) and my wife... (@Britta, sorry if you read this :)). This had to stop...
+2020 is the year of... COVID19 and working from home (WFH). In March 2020 my company decided to send everyone home and kept limited personell at the office. At first I thought it opened possibilities (to work on our IT backlog, business development whishlist and clean up the demo room) but I quickly found out that working from home was really hard. Not because of technical issues, the distance to my coworkers or customers, but due to a small wreckingball named Luuk (our 1.5 year old son) and my wife... (@Britta, sorry if you read this :)). Working without interuptions or doing 1on1's was a complete nightmare, this had to stop...
 
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Teamspresence/images/meme_ideas.jpg?raw=true" width="40%" height="40%">
 
-Being a huge fan of domotica, I started to search for a presence indicator showing my current status of Microsoft Teams. And found some nice ideas of other people:
+Being a huge fan of domotica, I started to search for a presence indicator showing my current status of Microsoft Teams and found some nice ideas:
 1. [Teams BusyLight by Elio Struyf](https://www.eliostruyf.com/diy-building-busy-light-show-microsoft-teams-presence)
 2. [ESP BusyLight by Toblum](https://toblum.github.io/ESPTeamsPresence/#/)
 3. [Subscribing to presence updates by Jan Vidar Elven](https://gotoguy.blog/2020/07/12/subscribing-to-teams-presence-with-graph-api-using-power-platform)
 
-Problem was, we (my colleague Daan Lambrix and I) wanted something that would be able to hook into our NodeRed instance and be custimizable to use at home and at the office. We used the examples as starting point and made a list of requirements:
+Problem was, we (my colleague Daan Lambrix and I) wanted something that would be able to hook into our Smart Home / NodeRed instance and be custimizable to use at home and at the office. We used the examples as starting point and made a list of requirements:
 
 - Receive the presence as a subscription not polling.
 - Receive presence of multiple users.
-- No manual actions needed besides initial setup.
+- No manual actions besides initial setup.
 - Multi-tenant.
-- Switching lights as a seperate flow making it usable for any platform capable of connection to NodeRed.
+- Switching lights as a seperate flow making it usable for any platform.
 - Manual override for lights (to fake a busy day to SO... :)).
 
-______ OLD _____
-
+This guide shows you what we made, we hope you like it, we sure do!
 
 # Table of content 
 * auto-gen TOC:
 {:toc}
 
 # BOL
-- 3D printed water meter holder [Download](https://www.thingiverse.com/thing:4146391) (credits to [Jover68 on thingiverse](https://www.thingiverse.com/Jover68))
-- Wemos D1 mini with mini usb cable
-- Esphome (installed or docker)
-- Proximity sensor (low voltage one, or you will need extra power adapter) [Buy here](https://nl.aliexpress.com/item/32826250006.html?spm=a2g0s.9042311.0.0.27424c4dB8gKjc)
+## Interface with Microsoft Graph
+- NodeRed instance.
+- Admin credentials to setup a Azure App.
+## BusyLight hardware and software
+- 3D printed case [Download](https://www.thingiverse.com/thing:4296998) credits to TBlum.
+- Wemos D1 mini.
+- WS2812b LED ring.
+- ESPHome.
 
 # Showcase
 ## 3d model of holder
