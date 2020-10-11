@@ -6,19 +6,19 @@
 Being a huge fan of domotica, I started to search for a presence indicator showing my current status of Microsoft Teams. And found some nice ideas of other people:
 1. [Teams BusyLight by Elio Struyf](https://www.eliostruyf.com/diy-building-busy-light-show-microsoft-teams-presence)
 2. [ESP BusyLight by Toblum](https://toblum.github.io/ESPTeamsPresence/#/)
+3. [Subscribing to presence updates by Jan Vidar Elven](https://gotoguy.blog/2020/07/12/subscribing-to-teams-presence-with-graph-api-using-power-platform)
 
+Problem was, we (my colleague Daan Lambrix and I) wanted something that would be able to hook into our NodeRed instance and be custimizable to use at home and at the office. We used the examples as starting point and made a list of requirements:
 
+- Receive the presence as a subscription not polling.
+- Receive presence of multiple users.
+- No manual actions needed besides initial setup.
+- Multi-tenant.
+- Switching lights as a seperate flow making it usable for any platform capable of connection to NodeRed.
+- Manual override for lights (to fake a busy day to SO... :)).
 
+______ OLD _____
 
-My watermeter is a dumb meter, but has a metal needle that spins if water is used. Every complete spin is exactly 0.001 m3 water and can be used as a reporting unit for my smart domotica system. Using a proximity sensor that gives a pulse everytime the metal passes I can report the usage to my dashboard. 
-So in order:
-1. Sensor gives a pulse to a Wemos D1 mini with ESPHome.
-2. ESPHome reports the pulse to Home Assistant.
-3. NodeRed picks up the pulses and stores them in a counter variable.
-4. NodeRed checks the current meter report, adds the counter variable and stores it again in:
-4.1. Home Assistant value
-4.2. InfluxDB measurement
-5. NodeRed restart the loop.
 
 # Table of content 
 * auto-gen TOC:
