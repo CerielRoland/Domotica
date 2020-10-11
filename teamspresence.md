@@ -1,7 +1,7 @@
 # Teams Presence Introduction
 2020 is the year of... COVID19 and working from home (WFH). My company decided to send everyone home and kept a limited personel at the office. At first I thought it opened possibilities (to work on our IT backlog and do some research) but I quickly found out that working from home was really hard. Not because of the distance to my coworkers or customers, but due to a small wreckingball named Luuk (our 1.5 year old son) and my wife... (@Britta, sorry if you read this :)). This had to stop...
 
-<img src="https://github.com/CerielRoland/Domotica/blob/master/Teamspresence/images/meme_ideas.jpg?raw=true" width="20%" height="20%">
+<img src="https://github.com/CerielRoland/Domotica/blob/master/Teamspresence/images/meme_ideas.jpg?raw=true" width="40%" height="40%">
 
 Being a huge fan of domotica, I started to search for a presence indicator showing my current status of Microsoft Teams. And found some nice ideas of other people:
 1. [Teams BusyLight by Elio Struyf](https://www.eliostruyf.com/diy-building-busy-light-show-microsoft-teams-presence)
