@@ -24,8 +24,8 @@ This guide shows you what we made, we hope you like it, we sure do!
 {:toc}
 
 # BOL
-## Interface with Microsoft Graph
-- NodeRed instance.
+## NodeRed interface with Microsoft Graph
+- NodeRed instance with public access.
 - Admin credentials to setup a Azure App.
 ## BusyLight hardware and software
 - 3D printed case [Download](https://www.thingiverse.com/thing:4296998) credits to TBlum.
@@ -45,11 +45,14 @@ This guide shows you what we made, we hope you like it, we sure do!
 
 # Building instructions
 
-## Wemos D1 mini
-First step is to solder the proximity sensor to the Wemos D1 mini.
-- GND > GND
-- DC > 5V
-- Pulse > D0
+## NodeRed presence flows
+In order to get the presence subscription we needed to make a few flows in NodeRed:
+1. Use the initial token to get an access and refresh token.
+2. Get a new access token based on the refresh token if expired.
+3. Get current subscriptions to check if we need to recreate the subscription.
+4. Create subscription.
+5. TEST - Get presence of my own user.
+6. TEST - Get presence of Daan.
 
 ## ESPHome
 After soldering the wires you will need to flash the Wemos with the correct esp config.
