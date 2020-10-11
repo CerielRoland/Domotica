@@ -3,6 +3,10 @@
 
 <img src="https://github.com/CerielRoland/Domotica/blob/master/Teamspresence/images/meme_ideas.jpg?raw=true" width="50%" height="50%">
 
+Being a huge fan of domotica, I started to search for a presence indicator showing my current status of Microsoft Teams. And found some nice ideas of other people:
+1. [Teams BusyLight by Elio Struyf]https://www.eliostruyf.com/diy-building-busy-light-show-microsoft-teams-presence/
+
+
 My watermeter is a dumb meter, but has a metal needle that spins if water is used. Every complete spin is exactly 0.001 m3 water and can be used as a reporting unit for my smart domotica system. Using a proximity sensor that gives a pulse everytime the metal passes I can report the usage to my dashboard. 
 So in order:
 1. Sensor gives a pulse to a Wemos D1 mini with ESPHome.
